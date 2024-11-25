@@ -1,0 +1,91 @@
+/* 전체 프로젝트 섹션 */
+#projects {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* 프로젝트 섹션 제목 */
+#projects h1 {
+    font-size: 2rem;
+    color: #ff7f50;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+/* 프로젝트 리스트 컨테이너 */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* 개별 프로젝트 카드 */
+.project-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 프로젝트 이미지 */
+.project-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.project-tech{
+    color: rgba(0, 0, 0, 0.64);
+    border: 2px solid #ffdb2c;
+    border-radius: 5px;
+    background-color: rgba(199, 165, 30, 0.21);
+    padding: 5px;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.project-info{
+    margin-bottom: 1rem;
+}
+
+/* 프로젝트 제목 */
+.project-card h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+/* 프로젝트 설명 */
+.project-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.project-info p{
+     margin-block: 0;
+     font-size: 0.9rem;
+ }
+
+/* 프로젝트 링크 */
+.project-card a {
+    font-size: 1rem;
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    color: #ff7f50;
+}

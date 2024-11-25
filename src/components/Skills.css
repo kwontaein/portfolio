@@ -1,0 +1,111 @@
+/* Skills 섹션 */
+#skills {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 제목 스타일 */
+#skills h1 {
+    font-size: 2rem;
+    color: #ff7f50;
+    margin-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* 카테고리 그리드 */
+.skill-categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 한 줄에 2개의 카테고리 */
+    gap: 2rem; /* 카테고리 간격 */
+}
+/* 카테고리 스타일 */
+.skill-category {
+    margin-bottom: 2rem;
+    padding-bottom: 10px;
+    background-color: rgba(108, 108, 108, 0.1);
+    border-radius: 5px;
+}
+.skill-category h2 {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid #202123;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+/* Skills 리스트 */
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    justify-items: center;
+}z
+.skills-list.backend {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skills-list.frontend {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skills-list.design {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills-list.version-control {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skills-list.etc {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+
+/* 각 기술 항목 */
+/* 공통 스타일 */
+.skill-item {
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #202123;
+    justify-content: space-between;
+}
+
+
+/* Hover 효과 */
+.skill-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skill-img{
+    width: 40%;
+    height: auto;
+    min-width: 25px;
+    border-radius: 5px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .skills-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

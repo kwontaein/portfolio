@@ -1,0 +1,66 @@
+/* Hero 섹션 */
+#hero {
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Hero 컨테이너 */
+.hero-container {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap; /* 반응형으로 줄바꿈 */
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* 텍스트 영역 */
+.hero-text {
+    flex: 1;
+    text-align: left; /* 텍스트 정렬 */
+    padding: 1rem;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    color: #1e90ff;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 이미지 영역 */
+.hero-image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px; /* 이미지 최대 크기 제한 */
+    height: auto; /* 비율 유지 */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column; /* 작은 화면에서 세로 배치 */
+    }
+
+    .hero-text {
+        text-align: center; /* 텍스트 가운데 정렬 */
+    }
+}
