@@ -34,7 +34,6 @@ const Projects = () => {
             useTech : "Spring Boot, Java, Mysql, JSP, Mybatis",
             image: "img/yanolja.png", // 이미지 경로
             link: "https://github.com/kwontaein/Spring_Yanolja",
-            notion: "https://github.com/kwontaein/portfolio",
         },{
             title: "VWS(Vertical Working Simulation)",
             description: "VR을 통한 자격증 시험 연습 및 웹사이트를 통한 필기 시험 연습",
@@ -44,7 +43,6 @@ const Projects = () => {
             useTech : "Spring, Node.Js, React, Yup, Unity",
             image: "img/vws.png", // 이미지 경로
             link: "https://github.com/kwontaein/mars",
-            notion: "https://github.com/kwontaein/portfolio",
         },
     ];
 
@@ -75,13 +73,17 @@ const Projects = () => {
                                 GitHub
                                 </a>
                             </div>
-                            <div>
-                                <a href={project.notion}
-                                    target="_blank"
-                                    rel="noopener noreferrer">
-                                    View Project
-                                </a>
-                            </div>
+                            {project.notion && (
+                                <div>
+                                    <a
+                                        href={project.notion}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        View Project
+                                    </a>
+                                </div>
+                            )}
                             <div className="project-tech">{project.useTech}</div>
                         </div>
                     ))}
