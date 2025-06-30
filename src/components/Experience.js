@@ -3,13 +3,13 @@ import "./Experience.css";
 
 const Experience = () => {
     const experiences = [
-        {
-            company: "다온정보",
+       {
+            company: "다원OA",
             position: "Full Stack",
             period: "2023.01.01 - 2023.12.31",
             description: [
-                "웹페이지 유지보수",
-                "PHP로 제작된 사이트의 버전이 너무 낮아 구글 크롬 및 네이버 웨일에서 기능이 작동하지 않는 문제를 해결함."
+                "웹 리팩토링 및 도커 서버 구동",
+                "PHP 사이트의 여러 기능 수정 및 도커를 통해 아파치 서버 구축 및 웹 업로드."
             ],
             tools: ["PHP" , "MySQL"],
         },
@@ -18,10 +18,19 @@ const Experience = () => {
             position: "Full Stack 개발자 인턴",
             period: "2023.08.08 - 2023.12.08",
             description: [
-                "이음아이티 회사에서 3개월간의 인턴 활동을 하며 JAVA 와 Spring Boot 로 프로젝트를 진행하며 교육을 받았음.",
-                "DB 설계 방식 및 페이지 동작 과정, MVC2 구조 등을 활용하는 방법을 배웠음.",
+                "이음아이티 회사에서 3개월간의 인턴 활동을 하며 JAVA 와 Spring Boot 로 프로젝트를 진행하며 교육 이수.",
+                "DB 설계 방식 및 페이지 동작 과정, MVC2 구조 등을 활용법 숙달.",
             ],
             tools: ["Spring Boot", "Java", "Mysql", "JSP", "Mybatis"],  
+        },  {
+            company: "다온정보",
+            position: "Back-End",
+            period: "2025.01.15 - 2025.05.26",
+            description: [
+                "웹페이지 제작",
+                "PHP로 제작된 사이트의 노후화로 인해 구글 크롬 및 네이버 웨일에서 기능이 대부분 작동하지 않아, 새로운 기술로 페이지 제작."
+            ],
+            tools: ["Spring", "Java", "Jpa", "Redis", "Mysql", "React", "Node.js"],
         },
     ];
 

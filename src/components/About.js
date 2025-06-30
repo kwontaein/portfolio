@@ -14,17 +14,24 @@ const About = () => {
                     <div className="keyword">Learning</div>
                 </div>
                 <p className="about-description">
-                    저는 <span className="highlight">Java</span> 개발자로서 새로운 도전을 즐기며 성장해 나가는 개발자입니다.
-                    문제를 해결하고, 복잡한 로직을 단순화하며, <span className="highlight">효율적이고 확장 가능한 시스템</span>을 만드는 데 열정을 가지고 있습니다.
+                    저는 <span className="highlight">백엔드 개발자</span>로서 복잡한 문제를 구조화하고, 효율적인 해결책을 설계하는 데 큰 흥미를 느낍니다. <br/>
+                    단순한 기능 구현을 넘어, <span className="highlight">유지보수성과 확장성</span>을 고려한 설계를 지향하며, 안정적인 시스템을 구축하기 위해 끊임없이
+                    고민합니다.
                 </p>
                 <p className="about-description">
-                    새로운 기술과 트렌드를 배우는 것을 좋아하며, 기존에 해보지 않았던 일에 도전하며 더 넓은 시야를 키우는 것을 즐깁니다.
+                    새로운 기술을 빠르게 습득하고 실제 프로젝트에 적용해보는 것을 좋아합니다. <br/>
+                    기존에 경험하지 않았던 영역에 도전하면서도, 필요한 개념을 빠르게 흡수하고, 이를 문제 해결에 연결하는 과정을 즐깁니다.
                 </p>
                 <ul>
-                    <li><strong>도전 정신:</strong> 새로운 환경과 마주한 문제를 두려워하지 않고, 그것을 통해 스스로 성장합니다.</li>
-                    <li><strong>배움의 즐거움:</strong> 새로운 기술, 언어, 프레임워크를 배우고 이를 실제 프로젝트에 적용하며 실력을 넓혀갑니다.</li>
-                    <li><strong>협업과 소통:</strong> 팀과의 협력을 통해 더 나은 결과를 도출하고, 함께 성장하는 경험을 추구합니다.</li>
+                    <li><strong>도전 정신:</strong> 낯선 기술 스택이나 복잡한 요구사항도 기꺼이 마주하며, 이를 극복하는 과정에서 개발자로서의 역량을 넓혀갑니다.</li>
+                    <li><strong>지속적인 학습:</strong> Java, Spring, JPA와 같은 백엔드 핵심 기술은 물론, Redis, WebSocket, JWT 등 실무에서의 요구를
+                        기반으로 학습하고 적용한 경험이 있습니다.
+                    </li>
+                    <li><strong>협업과 커뮤니케이션:</strong> 팀 프로젝트에서 명확한 소통과 역할 분담, 문서화 등을 통해 <span className="highlight">동료와의 시너지</span>를
+                        창출하며 함께 성장하는 문화를 추구합니다.
+                    </li>
                 </ul>
+
             </div>
         </section>
     );

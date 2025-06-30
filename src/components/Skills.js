@@ -80,12 +80,12 @@ const Skills = () => {
                     <h2>ETC</h2>
                     <div className="skills-list etc">
                         <div className="skill-item etc">
-                            <div><img className="skill-img" src={"img/php.png"}></img></div>
-                            <div>PHP</div>
+                            <div><img className="skill-img" src={"img/docker.png"}></img></div>
+                            <div>Docker</div>
                         </div>
                         <div className="skill-item etc">
-                            <div><img className="skill-img" src={"img/python.png"}></img></div>
-                            <div>Python</div>
+                            <div><img className="skill-img" src={"img/ubuntu.png"}></img></div>
+                            <div>Ubuntu</div>
                         </div>
                         <div className="skill-item etc">
                             <div>

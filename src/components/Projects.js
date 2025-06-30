@@ -4,14 +4,15 @@ import "./Projects.css";
 const Projects = () => {
     const projects = [
         {
-            title: "개인 포트폴리오 사이트",
-            description: "신입 개발자 권태인의 포트폴리오",
-            duration:"2024.11.10 ~ 2024.11.19",
-            people:"개인 프로젝트",
-            work: "Front-End",
-            useTech : "React, HTML/CSS",
-            image: "img/portfolio.jpg", // 이미지 경로
-            link: "https://your-portfolio.com",
+            title: "다온정보",
+            description: "Saas ERP System",
+            duration:"2025.01.15 ~ 2025.05.26",
+            people:"2인 팀 프로젝트",
+            work: "Back-End, Server",
+            useTech : "Spring, Java, Jpa, Redis, Mysql, React, Node.js",
+            image: "img/daon.png", // 이미지 경로
+            link: "https://github.com/kwontaein/Daon",
+            notion: "https://www.notion.so/SaaS-ERP-Program-21e664c3baf98012a695dcbcf37705b2",
         },
         {
             title: "Calen J",
@@ -22,6 +23,7 @@ const Projects = () => {
             useTech : "Spring Boot , JPA, Java, Mysql, React",
             image: "img/calenj.png", // 이미지 경로
             link: "https://github.com/kwontaein/Calenj",
+            notion: "https://www.notion.so/CalenJ-b2b7952492364e0b85018f8479e7014c",
         },
         {
             title: "야놀자 클론 코딩",
@@ -32,6 +34,7 @@ const Projects = () => {
             useTech : "Spring Boot, Java, Mysql, JSP, Mybatis",
             image: "img/yanolja.png", // 이미지 경로
             link: "https://github.com/kwontaein/Spring_Yanolja",
+            notion: "https://github.com/kwontaein/portfolio",
         },{
             title: "VWS(Vertical Working Simulation)",
             description: "VR을 통한 자격증 시험 연습 및 웹사이트를 통한 필기 시험 연습",
@@ -41,6 +44,7 @@ const Projects = () => {
             useTech : "Spring, Node.Js, React, Yup, Unity",
             image: "img/vws.png", // 이미지 경로
             link: "https://github.com/kwontaein/mars",
+            notion: "https://github.com/kwontaein/portfolio",
         },
     ];
 
@@ -64,11 +68,20 @@ const Projects = () => {
                             </div>
                             <hr/>
                             <p>{project.description}</p>
-                            <a href={project.link}
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                View Project
-                            </a>
+                            <div>
+                                <a href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                GitHub
+                                </a>
+                            </div>
+                            <div>
+                                <a href={project.notion}
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    View Project
+                                </a>
+                            </div>
                             <div className="project-tech">{project.useTech}</div>
                         </div>
                     ))}
