@@ -98,7 +98,7 @@
 }
 
 /* 반응형 디자인 */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .skills-list {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -107,5 +107,33 @@
 @media (max-width: 480px) {
     .skills-list {
         grid-template-columns: repeat(1, 1fr);
+    }
+}*/
+@media (max-width: 768px) {
+    .skill-categories {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .skills-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .skill-categories {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .skills-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .skill-item {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.9rem;
+    }
+
+    .skill-img {
+        width: 60%;
     }
 }
