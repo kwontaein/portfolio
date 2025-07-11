@@ -45,7 +45,8 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 0.5rem;
     justify-items: center;
-}z
+}
+
 .skills-list.backend {
     grid-template-columns: repeat(4, 1fr);
 }
@@ -94,6 +95,7 @@
     width: 40%;
     height: auto;
     min-width: 25px;
+    min-width: 25px;
     border-radius: 5px;
 }
 
@@ -125,12 +127,12 @@
     }
 
     .skills-list {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
 
     .skill-item {
         padding: 0.5rem 0.8rem;
-        font-size: 0.9rem;
+        font-size: 0.5rem;
     }
 
     .skill-img {

@@ -45,7 +45,7 @@ const Skills = () => {
                             </div>
                             <div className="skill-item frontend">
                                 <div><img className="skill-img" src={"img/js.png"}></img></div>
-                                <div>JavaScript</div>
+                                <div>Js</div>
                             </div>
                         </div>
                     </div>
