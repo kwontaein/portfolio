@@ -1,0 +1,52 @@
+#skills-detail {
+    padding: 2rem;
+    background-color: beige;
+    max-width: 1000px;
+    margin: 2rem auto;
+    border-radius: 10px;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.skill-category-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 🔥 2열로 구성 */
+    gap: 30px;
+}
+/* ✅ 마지막 항목을 1개 남았을 때 전체 너비로 */
+.skill-category:last-child:nth-child(odd) {
+    grid-column: span 2;
+}
+.skill-category {
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.category-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: 600;
+}
+
+.skill-list {
+    list-style: disc;
+    padding-left: 20px;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* ✅ 반응형 처리 */
+@media screen and (max-width: 768px) {
+    .skill-category-container {
+        grid-template-columns: 1fr;
+    }
+}

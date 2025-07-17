@@ -1,6 +1,6 @@
 /* 전체 섹션 스타일 */
 #experience {
-    background-color: #f9f9f9;
+    background-color: beige;
     padding: 2rem;
     margin: 2rem auto;
     max-width: 1000px;
@@ -11,7 +11,7 @@
 /* 섹션 제목 */
 #experience h1 {
     font-size: 2rem;
-    color: #ff7f50;
+    color: black;
     margin-bottom: 2rem;
     text-transform: uppercase;
 }

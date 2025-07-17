@@ -1,6 +1,5 @@
 /* Hero 섹션 */
 #hero {
-    background-color: #f9f9f9;
     padding: 2rem 1rem;
     text-align: center;
     display: flex;
@@ -36,7 +35,7 @@
 
 .hero-text p {
     font-size: 1.2rem;
-    color: #333;
+    color: white;
     line-height: 1.6;
 }
 

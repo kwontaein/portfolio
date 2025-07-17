@@ -1,6 +1,6 @@
 /* Skills 섹션 */
 #skills {
-    background-color: #ffffff;
+    background-color: beige;
     padding: 2rem;
     margin: 2rem auto;
     max-width: 1000px;
@@ -11,7 +11,7 @@
 /* 제목 스타일 */
 #skills h1 {
     font-size: 2rem;
-    color: #ff7f50;
+    color: black;
     margin-bottom: 2rem;
     text-align: center;
     text-transform: uppercase;
