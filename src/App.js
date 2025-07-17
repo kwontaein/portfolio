@@ -4,7 +4,7 @@ import Header from "./components/global/Header";
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Skills from "./components/skills/Skills";
-import Contact from "./components/global/Contact";
+import Archiving from "./components/global/Archiving";
 import Footer from "./components/global/Footer";
 import Hero from "./components/hero/Hero";
 import Experience from "./components/experience/Experience";
@@ -23,7 +23,7 @@ function App() {
                 <DetailSkill/>
                 <Projects />
                 <Information/>
-                <Contact />
+                <Archiving />
             </main>
             <Footer />
         </div>

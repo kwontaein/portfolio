@@ -1,4 +1,8 @@
 /* 전체 레이아웃 */
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: 'Arial', sans-serif;

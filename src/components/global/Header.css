@@ -66,3 +66,22 @@
         gap: 1rem;
     }
 }
+/* 모바일 메뉴 열렸을 때 스크롤 가능하게 */
+.nav.open {
+    display: block;
+    max-height: 10vh; /* 💡 최대 높이 제한 */
+    overflow-y: auto; /* ✅ 스크롤 활성화 */
+    -webkit-overflow-scrolling: touch; /* iOS 스크롤 부드럽게 */
+    scrollbar-width: thin; /* 파이어폭스 전용 */
+    scrollbar-color: #999 transparent; /* 파이어폭스용 색상 */
+}
+
+/* 선택: 스크롤바 스타일 커스터마이징 (크롬 기준) */
+.nav.open::-webkit-scrollbar {
+    width: 6px;
+}
+
+.nav.open::-webkit-scrollbar-thumb {
+    background-color: #aaa;
+    border-radius: 10px;
+}

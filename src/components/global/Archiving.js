@@ -1,9 +1,9 @@
 import React from "react";
-import "./Contact.css";
-const Contact = () => {
+import "./Archiving.css";
+const Archiving = () => {
     return (
 
-        <section id="about">
+        <section id="Archiving">
             <h1>Archiving</h1>
             <div className="contact-container">
                 <a
@@ -33,4 +33,4 @@ const Contact = () => {
     );
 };
 
-export default Contact;
+export default Archiving;
