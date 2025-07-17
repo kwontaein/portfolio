@@ -47,6 +47,7 @@
 /* ✅ 반응형 처리 */
 @media screen and (max-width: 768px) {
     .skill-category-container {
+        display: block;
         grid-template-columns: 1fr;
     }
 }
